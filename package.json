@@ -1,0 +1,26 @@
+{
+  "name": "hevy",
+  "version": "1.0.0",
+  "description": "Web app for creating and tracking workouts",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robmhoward/hevy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robmhoward/hevy/issues"
+  },
+  "homepage": "https://github.com/robmhoward/hevy#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "https": "^1.0.0"
+  }
+}

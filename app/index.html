@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body ng-app="hevyApp">
+
+    <div class="header">
+      <div class="navbar navbar-default" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="#/">Hevy</a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="js-navbar-collapse">
+
+            <ul class="nav navbar-nav">
+              <li><a href="#/home"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+              <li><a ng-href="#/schedule"><span class="glyphicon glyphicon-calendar"></span> Workouts</a></li>
+              <li><a ng-href="#/history"><span class="glyphicon glyphicon-stats"></span> History</a></li>
+              <li><a ng-href="#/settings"><span class="glyphicon glyphicon-cog"></span> Settings</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+    <div ng-view=""></div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <p><span class="glyphicon glyphicon-heart"></span> from the Office Extensibility team</p>
+      </div>
+    </div>
+
+    <script src="scripts/app.js"></script>
+    
+</body>
+</html>
